@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Page</title>
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1498503403619-e39e4ff390fe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Styling for the box */
+        .content-box {
+            background-color: rgba(255, 255, 255, 0.3); /* Light semi-transparent background */
+            padding: 30px; /* Space around the content */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+            text-align: center;
+        }
+
+        h2 {
+            color: #003366; /* Dark blue color */
+            margin-bottom: 30px;
+            font-size: 30px; /* Larger font size for emphasis */
+            font-weight: bold; /* Make the text bold */
+            text-transform: uppercase; /* Make the title all uppercase */
+            letter-spacing: 2px; /* Add space between letters */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+        }
+
+        p {
+            color: #003366; /* Dark blue color */
+            font-size: 20px; /* Increase font size for better visibility */
+            font-weight: bold; /* Make the font bolder for emphasis */
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 18px;
+            color: white; /* White text for visibility */
+            background-color: #003366; /* Dark blue background */
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        a:hover {
+            background-color: #002244; /* Slightly darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="content-box">
+        <h2>Welcome to STAYEASE Hotel Reservation System</h2>
+        <p>Select an option:</p>
+
+        <!-- Link to the Make a Reservation page (index.jsp) -->
+        <a href="index.jsp">Make a Reservation</a><br><br>
+
+        <!-- Link to the View Reservations page (viewReservations.jsp) -->
+        <a href="viewReservations.jsp">View Reservations</a><br><br>
+
+        <!-- Link to the Cancel Reservation page -->
+        <a href="cancelReservation.jsp">Cancel a Reservation</a><br><br>
+    </div>
+</body>
+</html>
